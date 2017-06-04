@@ -1,0 +1,57 @@
+Anaconda
+
+一、基本特征
+
+1、开源免费的Python第三方开发环境
+
+2、支持近800个第三方库
+
+3、包含多个Python开发调试环境
+
+4、适合数据处理和科学计算
+
+5、跨平台工具
+
+二、官网链接
+
+https://www.continuum.io
+
+三、支撑Anaconda的重要工具
+
+1、conda
+   
+   用于包管理（与pip类似，管理Python第三方库）和环境管理
+   
+   环境管理能够允许用户使用不同版本的Python，并能灵活切换
+   
+   在cmd命令行可通过conda --version 查看conda版本号
+               conda update conda 升级conda
+               
+2、spyder
+
+   用于编写和调试Python程序
+   
+3、IPython的%魔术命令
+   
+   常用命令               说明
+   %magic                显示所有魔术命令   
+   %hist                IPython命令的输入历史
+   %pdb                 异常发生后自动进入调试器
+   %reset                删除当前命令空间中全部变量或名称
+   %who                 显示IPython当前命令空间中已定义的变量
+   %time statement          给出代码的执行时间，statement表示一段代码
+   %timeit statement        多次执行代码，计算平均执行时间
+   %run .py              执行某个目录下.py文件（注意目录切换）
+   
+   IPython是能够调用核心Python解释器的交互式环境，属于前台执行脚本。
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
